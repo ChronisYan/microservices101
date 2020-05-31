@@ -1,0 +1,35 @@
+/* .PostCreate {
+  text-align: center;
+} */
+.commentCreate-label {
+  font-size: 1em;
+  color: #363636;
+  margin-right: 0.3em;
+}
+.commentCreate-input {
+  border: none;
+  outline: none;
+  padding: 0.2em;
+  font-size: 1rem;
+  color: 363636;
+}
+.commentCreate-input:focus {
+  border-left: 2px solid cadetblue;
+}
+
+.commentCreate-submit {
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  padding: 0.2em;
+  margin: 0 0 0.4em 0.2em;
+  font-size: 1rem;
+  color: #e6e6e6;
+  background-color: cadetblue;
+  transition: background-color ease-out 0.2s;
+}
+
+.commentCreate-submit:hover {
+  cursor: pointer;
+  background-color: darkslategrey;
+}
